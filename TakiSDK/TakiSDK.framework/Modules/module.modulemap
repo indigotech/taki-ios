@@ -1,0 +1,10 @@
+framework module TakiSDK {
+  umbrella header "TakiSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module TakiSDK.Swift {
+    header "TakiSDK-Swift.h"
+}
