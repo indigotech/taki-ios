@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '10.0'
   s.requires_arc = true
 
-  s.vendored_frameworks = 'TakiSDK/TakiSDK.framework', 'TQGeolocationSDK/FMDB.framework'
+  s.vendored_frameworks = 'TakiSDK/TakiSDK.framework'
 
   s.dependency 'JSONWebToken'
   s.dependency 'GRMustache.swift'
