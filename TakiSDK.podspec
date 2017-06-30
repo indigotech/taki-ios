@@ -21,8 +21,6 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '10.0'
   s.requires_arc = true
 
-  s.vendored_frameworks = 'TakiSDK/TakiSDK.framework'
+  s.vendored_frameworks = 'TakiSDK/TakiSDK.framework', 'TakiSDK/CryptoSwift.framework', 'TakiSDK/JWT.framework', 'TakiSDK/Mustache.framework'
 
-  s.dependency 'JSONWebToken'
-  s.dependency 'GRMustache.swift'
 end
