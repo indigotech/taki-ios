@@ -224,7 +224,6 @@ SWIFT_CLASS("_TtC8Mustache11MustacheBox")
 /// returns:
 /// The MustacheBox for <em>key</em>.
 - (MustacheBox * _Nonnull)mustacheBoxForKey:(NSString * _Nonnull)key SWIFT_WARN_UNUSED_RESULT;
-@property (nonatomic, readonly, copy) id _Nullable (^ _Nullable keyedSubscript)(NSString * _Nonnull);
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 @end
 
@@ -253,7 +252,6 @@ SWIFT_CLASS("_TtC8Mustache11MustacheBox")
 @interface MustacheBox (SWIFT_EXTENSION(Mustache))
 /// A textual representation of the boxed value. Useful for debugging.
 @property (nonatomic, readonly, copy) NSString * _Nonnull valueDescription;
-@property (nonatomic, readonly, copy) NSArray<NSString *> * _Nonnull facetsDescriptions;
 @end
 
 
